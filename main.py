@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 from struct import *
 
 
+# Reference: https://m.blog.naver.com/PostView.nhn?blogId=acwboy&logNo=220584307823&proxyReferer=https%3A%2F%2Fwww.google.com%2F
 def extract_images_and_labels():
 
     # Read train images and labels in binary mode.
