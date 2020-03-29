@@ -7,10 +7,10 @@ from struct import *
 def extract_images_and_labels():
 
     # Read train images and labels in binary mode.
-    train_images_file = open("data/train-images.idx3-ubyte", "rb")
-    train_labels_file = open("data/train-labels.idx1-ubyte", "rb")
-    test_images_file = open("data/t10k-images.idx3-ubyte", "rb")
-    test_labels_file = open("data/t10k-labels.idx1-ubyte", "rb")
+    train_images_file = open("../data/train-images.idx3-ubyte", "rb")
+    train_labels_file = open("../data/train-labels.idx1-ubyte", "rb")
+    test_images_file = open("../data/t10k-images.idx3-ubyte", "rb")
+    test_labels_file = open("../data/t10k-labels.idx1-ubyte", "rb")
 
     # Skip the header bytes of each file.
     train_images_file.read(16)
